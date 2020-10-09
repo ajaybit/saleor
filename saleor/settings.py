@@ -46,7 +46,7 @@ ADMINS = (
 )
 MANAGERS = ADMINS
 
-_DEFAULT_CLIENT_HOSTS = "localhost,127.0.0.1,a110125.herokuapp.com"
+_DEFAULT_CLIENT_HOSTS = "localhost,127.0.0.1,a110125.herokuapp.com, https://a110125.herokuapp.com, http://a110125.herokuapp.com"
 ALLOWE_HOSTS = "a110125.herokuapp.com, https://a110125.herokuapp.com, http://a110125.herokuapp.com/"
 
 ALLOWED_CLIENT_HOSTS = os.environ.get("ALLOWED_CLIENT_HOSTS")
